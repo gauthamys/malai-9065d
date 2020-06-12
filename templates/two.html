@@ -1,4 +1,13 @@
 {% extends "base.html" %}
 {%block content%}
+<h2>TWO</h2>
+<hr>
 <p>TWO</p>
+<p>
+    {% if data %}
+    Data - {{data['field 1']}} {{data['field 2']}}
+    {% else %}
+    Data no exist fam
+    {% endif %}
+</p>
 {% endblock %}
