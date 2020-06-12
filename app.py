@@ -21,4 +21,7 @@ def two():
 def gay():
 	return render_template("tusharisgay.html",title="GayLord")
 
+if __name__ == '__main__':
+	app.run()
+
 
