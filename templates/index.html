@@ -1,14 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>ONE</h2>
-<hr>
-<p>OK</p>
+<h2>Welcome to App</h2>
 <p>
-    <form action="/two" method="POST">
-        <label for name="name">field 1</label>
-        <input type="text" name="name" id = "name"><br><br>
-        <label for name = "name2">field 2</label>
-        <input type="text" name="name2" id = "name2"><br><br>
+    <form action="/" method="POST">
+        <label for name="time">Enter time in the format {{time}} </label><br><br>
+        <input type="text" name="time" id = "time"><br><br>
+        
         <input type="submit">
     </form>
 </p>
